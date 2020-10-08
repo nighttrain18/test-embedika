@@ -16,10 +16,10 @@
 3. В терминале выполните *docker run --publish 8886:8886 embedika-test*
 4. Если порт не занят другим процессом сервис будет доступен на *http://localhost:8886*
 ## Краткое описание проекта
-/database - бд сущностей
-/handlers - обработчики урлов
-/log-database - бд логов
-/middlewares - промежуточные обработчики
+1. /database - бд сущностей (sqlite inmemory решение)
+2. /handlers - обработчики урлов
+3. /log-database - бд логов (sqlite inmemory решение)
+4. /middlewares - промежуточные обработчики
 ## Описание API
 1. *GET /cars* - список автомобилей. 
 Доступна сортировка через параметры запроса *sortby=color|brand*.
